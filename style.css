@@ -1,0 +1,9 @@
+.nav-bar{
+  list-style-type: none;
+  border: 2px solid black;
+  background: salmon;
+}
+
+li {
+  display: inline;
+}
