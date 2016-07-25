@@ -1,28 +1,125 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Music History</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <title>Music History</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
-
-<nav>
-  <ul class="nav-bar">
-    <li>View</li>
-    <li> | </li>
-    <li><a href=#> Add Music </a></li>
-    <li> | </li>
-    <li><a href=#> Profile </li>
-  </ul>
-</nav>
-
-<nav>
-
-</nav>
-
 <body>
+    <div>
+        <nav class="nav-bar">
+            <ul>
+                <li>View Music</li>
+                <li>|</li>
+                <li>
+                    <a href="#">Add Music</a>
+                </li>
+                <li>|</li>
+                <li>
+                    <a href="#">Profile</a>
+                </li>
+                <li style="list-style: none"></li>
+            </ul>
+        </nav>
+        <!-- LEFT SIDE BAR -->
 
+      <container>
+        <div class="side-bar">
+            <ul>
+                <li>Song Length:</li>
+                <li style="list-style: none; display: inline">
+                    <div>
+                        <input max="10" min="0" name="points" type="range">
+                    </div>
+                </li>
+                <li>Artist:</li>
+                <li style="list-style: none"><select>
+                    <option value="artist">
+                        Chance the Rapper
+                    </option>
+                    <option value="artist">
+                        The Killers
+                    </option>
+                    <option value="artist">
+                        Kid Cudi
+                    </option>
+                    <option value="artist">
+                        Twenty One Pilots
+                    </option>
+                </select></li>
+                <li>Album:</li>
+                <li style="list-style: none"><select>
+                    <option value="album">
+                        Coloring Book
+                    </option>
+                    <option value="album">
+                        Saab
+                    </option>
+                    <option value="album">
+                        A Kid Named Cudi
+                    </option>
+                    <option value="album">
+                        Audi
+                    </option>
+                </select></li>
+                <li>Genre:</li>
+                  <form class="genre">
+                    <input type="checkbox" name="hiphop" value="genre">Rock</input>
+                    <input type="checkbox" name="hiphop" value="genre">Classical</input>
+                    <input type="checkbox" name="hiphop" value="genre">Pop</input>
+                    <input type="checkbox" name="hiphop" value="genre">Jazz</input>
+                    <input type="checkbox" name="hiphop" value="genre">Blues</input>
+                    <input type="checkbox" name="hiphop" value="genre">Hip Hop</input>
+                  </form>
+            </ul>
+        </div>
 
+        <!-- LEFT SIDE BAR -->
+
+        <!-- Main Middle Box -->
+        <div class="main-border">
+            <h2>Man on the Moon</h2>
+            <nav class="main-middle">
+                <ul>
+                    <li>Kid Cudi</li>
+                    <li>|</li>
+                    <li>A Kid Named Cudi</li>
+                    <li>|</li>
+                    <li>Hip Hop</li>
+                </ul>
+            </nav>
+            <h2>Shot at the Night</h2>
+            <nav class="main-middle">
+                <ul>
+                    <li>The Killers</li>
+                    <li>|</li>
+                    <li>Album name</li>
+                    <li>|</li>
+                    <li>Alternative</li>
+                </ul>
+            </nav>
+            <h2>Blessings</h2>
+            <nav class="main-middle">
+                <ul>
+                    <li>Chance The Rapper</li>
+                    <li>|</li>
+                    <li>Coloring Book</li>
+                    <li>|</li>
+                    <li>Hip-Hop</li>
+                </ul>
+            </nav>
+            <h2>Ride</h2>
+            <nav class="main-middle">
+                <ul>
+                    <li>Twenty One Pilots</li>
+                    <li>|</li>
+                    <li>Blurryface</li>
+                    <li>|</li>
+                    <li>Alt / Hip  Hop</li>
+                </ul>
+            </nav>
+        </div><!-- Main Middle Box -->
+        <div></div>
+    </div>
 </body>
 </html>
