@@ -6,20 +6,28 @@
 }
 
 
+body {
+  clear: both;
+  text-decoration: none;
+
+}
+
+
 /******* NAV BAR ********/
 
 .nav-bar{
 
   background: salmon;
   border: 2px solid black;
-  width: 66.5%;
-  max-width: 67%;
+  width: 90%;
+  max-width: 754px;
   margin: 10px auto;
   font-family: futura;
   float:left;
 
 
 }
+
 
 .nav-bar ul li{
  list-style-type: none;
@@ -47,44 +55,6 @@
   list-style-type: none;
   display: block;
 
-
-}
-
-/******* LEFT SIDE BAR********/
-
-
-/******* Middle Main ********/
-
-.main-border{
-  background: #FEFAC0;
-  border: 2px solid black;
-  margin: 5px 10px auto;
-  max-width: 600px;
-  font-family: futura;
-  padding: 0 0 107px 0;
-
-}
-
-
-.main-middle {
-    background: #FEFAC0;
-
-
-}
-
-.main-middle ul li {
-  display: inline;
-  list-style-type: none;
-  color:black;
-
-}
-
-
-
-body {
-  clear: both;
-  text-decoration: none;
-
 }
 
 .side-bar,
@@ -97,21 +67,67 @@ body {
   float:left;
   clear: both;
 }
+/******* LEFT SIDE BAR********/
+
+
+/******* Middle Main ********/
+
+.main-border{
+  background: #FEFAC0;
+  border: 2px solid black;
+  margin: 5px 10px auto;
+  max-width: 493px;
+  font-family: futura;
+  padding: 0 0 107px 20px;
+
+}
+
+div.main-border {
+  padding-top: 50px;
+  max-height: 500px;
+
+}
 
 .main-border{
  float:left;
 
 }
 
+.main-middle {
+    background: #FEFAC0;
+
+}
+
+.main-middle ul li {
+  display: inline;
+  list-style-type: none;
+  color:black;
+  text-align: left;
+
+}
+
+.main-middle ul {
+  padding-left: 0;
+}
+
+
+h2 {
+
+  color: #785616 ;
+}
+
+/******* Middle Main ********/
+
+/******* PERIPHERALS AND LISTS ********/
+
 input[type="range"] {
     display:block;
     margin:auto;
-
+    position: right;
 }
 
 input[type="checkbox"] {
     display:inline;
 
 }
-
 
