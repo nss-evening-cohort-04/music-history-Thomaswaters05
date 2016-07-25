@@ -21,6 +21,7 @@ body {
   border: 2px solid black;
   width: 90%;
   max-width: 754px;
+  min-width: 754px;
   margin: 10px auto;
   font-family: futura;
   float:left;
