@@ -67,6 +67,8 @@ body {
   float:left;
   clear: both;
 }
+
+
 /******* LEFT SIDE BAR********/
 
 
@@ -83,9 +85,10 @@ body {
 }
 
 div.main-border {
-  padding-top: 50px;
-  max-height: 500px;
-
+  padding-top: 10px;
+  max-height: 503px;
+  line-height: 38px;
+  min-width: 493px;
 }
 
 .main-border{
@@ -122,12 +125,10 @@ h2 {
 
 input[type="range"] {
     display:block;
-    margin:auto;
-    position: right;
+    margin-right: 60px;
 }
 
 input[type="checkbox"] {
     display:inline;
 
 }
-
