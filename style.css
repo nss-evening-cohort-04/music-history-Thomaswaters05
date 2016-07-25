@@ -1,6 +1,6 @@
 
 * {
-  marin: 0px;
+
   box-sizing: border-box;
 
 }
@@ -9,6 +9,8 @@
 body {
   clear: both;
   text-decoration: none;
+  width: 960px;
+  margin: 0 auto;
 
 }
 
@@ -133,3 +135,14 @@ input[type="checkbox"] {
     display:inline;
 
 }
+
+select {
+  background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 12px;
+    border: 1.5px double brown;
+    cursor: pointer;
+
+}
+
