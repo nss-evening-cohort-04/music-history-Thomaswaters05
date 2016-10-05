@@ -9,8 +9,8 @@ songs[songs.length] = "Iron!ic > by Alanis Moris*ette on the album Jagged Little
 
 // **add an array at the beginning and end of the array**
 
-songs.unshift("m.A.A.d City\" - by Kendrick Lamar on the album \"Good Kid, M.A.A.D City");
-songs.push("Blessings\" - by Chance The Rapper on the album \"Coloring Book");
+songs.unshift("m.A.A.d City - by Kendrick Lamar on the album Good Kid, M.A.A.D City");
+songs.push("Blessings - by Chance The Rapper on the album Coloring Book");
 
 
 //** Loop over the array and remove any words or characters that don't belong**
@@ -28,20 +28,10 @@ for (var i = 0; i < songs.length; i++) {
 }
 
 
+// var fibonacci = [0,1];
+// for (var i = 2; i <= 500; i++) {
+//   fibonacci[i] = fibonacci[i-2] + fibonacci[i-1];
+//   fibonacci[i];
+// }
+// console.log(fibonacci);//--- FIB NUMBER PRINT OUT!
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Must add each string to the DOM in index.html in the main content area.
