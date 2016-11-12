@@ -31,7 +31,7 @@ You will be building the basic structure of your Music History application in HT
 
 Visit the [Music History mockup](https://moqups.com/chortlehoort/1E8LJX7r/) that I created. You will be recreating that document in your own HTML file.
 
-### Criteria 
+### Criteria
 
 1. Create five options for the artist select element of any artist that you enjoy.
 1. Create at least five options for the album select element. One, or more, album for each artist.

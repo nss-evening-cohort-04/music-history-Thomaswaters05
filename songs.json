@@ -1,0 +1,19 @@
+{
+  "songList": [
+    {
+      "song_name": "Heaven At Night",
+      "artist_name": "Kid Cudi",
+      "album_name": "A Kid Named Cudi"
+    },
+    {
+      "song_name": "Shot at the Night",
+      "artist_name": "The Killers",
+      "album_name": "Direct Hits"
+    },
+    {
+      "song_name": "Come and Get Your Love",
+      "artist_name": "Redbone",
+      "album_name": "Midnight Special"
+    }
+  ]
+}

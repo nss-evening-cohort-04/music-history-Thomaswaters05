@@ -1,131 +1,91 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8">
     <title>Music History</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-    <div>
-        <nav class="nav-bar">
-            <ul>
-                <li>View Music</li>
-                <li>|</li>
-                <li>
-                    <a href="#">Add Music</a>
-                </li>
-                <li>|</li>
-                <li>
-                    <a href="#">Profile</a>
-                </li>
-                <li style="list-style: none"></li>
-            </ul>
-        </nav>
-        <!-- LEFT SIDE BAR -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
 
-      <container>
-        <div class="side-bar">
-            <ul>
-                <li>Song Length:</li>
-                <li style="list-style: none; display: inline">
-                    <div>
-                        <input max="10" min="0" name="points" type="range">
-                    </div>
-                </li>
-                <li>Artist:</li>
-                <li style="list-style: none"><select>
-                    <option value="artist">
-                        Chance the Rapper
-                    </option>
-                    <option value="artist">
-                        The Killers
-                    </option>
-                    <option value="artist">
-                        Kid Cudi
-                    </option>
-                    <option value="artist">
-                        Twenty One Pilots
-                    </option>
-                </select></li>
-                <li>Album:</li>
-                <li style="list-style: none"><select>
-                    <option value="album">
-                        Blurryface
-                    </option>
-                    <option value="album">
-                        Coloring Book
-                    </option>
-                    <option value="album">
-                        A Kid Named Cudi
-                    </option>
-                    <option value="album">
-                        Direct Hits
-                    </option>
-                </select></li>
-                <li>Genre:</li>
-                  <form class="genre">
-                    <input type="checkbox" name="hiphop" value="genre">Rock</input>
-                    <input type="checkbox" name="hiphop" value="genre">Classical</input>
-                    <input type="checkbox" name="hiphop" value="genre">Pop</input>
-                    <input type="checkbox" name="hiphop" value="genre">Jazz</input>
-                    <input type="checkbox" name="hiphop" value="genre">Blues</input>
-                    <input type="checkbox" name="hiphop" value="genre">Hip Hop</input>
-                  </form>
-            </ul>
+    <nav>
+      <ul>
+        <li><a id="list-view-btn" href="#">List Music</a></li>
+        <li>|</li>
+        <li><a id="add-view-btn" href="#">Add Music</a></li>
+      </ul>
+    </nav>
+    <div id="add-music-view">
+      <div class="user-music-info">
+        <label>Song Name: <input type="text" id="song-name" /></label>
+        <label>Artist: <input type="text" id="artist" /></label>
+        <label>Album: <input type="text" id="album" /></label>
+        <button id="add-btn">Add</button>
+      </div>
+    </div>
+    <div id="list-music-view">
+      <div class="container">
+        <div class="filters">
+          <div class="slider">
+            <label for="time-slider">Song length:</label><br />
+            <input type="range" id="time-slider" min="10" max="100" step="1">
+          </div>
+          <div class="artist_dropdown">
+            <label for="artist">Artist:</label><br />
+            <select name="artist">
+              <option value="" disabled selected>Options</option>
+              <option value="chance">Chance The Rapper</option>
+              <option value="swede">Blue Swede</option>
+              <option value="twntyone">Twenty One Pilots</option>
+              <option value="killers">The Killers</option>
+              <option value="redbone">Redbone</option>
+            </select>
+
+          </div><br />
+          <div class="album_dropdown">
+            <label for="album">Album:</label><br />
+            <select name="album">
+              <option value="" disabled selected>Options</option>
+              <option value="coloring book">Coloring Book</option>
+              <option value="boogie">70's Boogies</option>
+              <option value="blurryface">blurryface</option>
+              <option value="midnight">Midnight Special</option>
+              <option value="directHits">Direct Hits</option>
+            </select>
+          </div><br />
+          <legend class="legend">Genre:</legend><br />
+          <div class="genres">
+            <div class="checkboxes">
+              <div class="inline_checkbox">
+                <label><input type="checkbox" name="genre" value="rock" />Rock</label>
+              </div>
+              <div class="inline_checkbox">
+                <label><input type="checkbox" name="genre" value="pop" />Pop</label>
+              </div>
+              <div class="inline_checkbox">
+                <label><input type="checkbox" name="genre" value="blues" />Blues</label>
+              </div>
+            </div>
+            <div class="checkboxes">
+              <div class="inline_checkbox">
+                <label><input type="checkbox" name="genre" value="classical" />Classical</label>
+              </div>
+              <div class="inline_checkbox">
+                <label><input type="checkbox" name="genre" value="jazz" />Jazz</label>
+              </div>
+              <div class="inline_checkbox">
+                <label><input type="checkbox" name="genre" value="hip_hop" />Hip hop</label>
+              </div>
+            </div>
+          </div>
+          <div class="filter_button">
+            <button type="submit">Filter</button>
+          </div>
         </div>
-
-        <!-- LEFT SIDE BAR -->
-
-        <!-- Main Middle Box -->
-        <div class="main-border">
-            <h2>Man on the Moon</h2>
-            <nav class="main-middle">
-                <ul>
-                    <li>Kid Cudi</li>
-                    <li>|</li>
-                    <li>A Kid Named Cudi</li>
-                    <li>|</li>
-                    <li>Hip Hop</li>
-                </ul>
-            </nav>
-            <h2>Shot at the Night</h2>
-            <nav class="main-middle">
-                <ul>
-                    <li>The Killers</li>
-                    <li>|</li>
-                    <li>Direct Hits</li>
-                    <li>|</li>
-                    <li>Alternative</li>
-                </ul>
-            </nav>
-            <h2>Blessings</h2>
-            <nav class="main-middle">
-                <ul>
-                    <li>Chance The Rapper</li>
-                    <li>|</li>
-                    <li>Coloring Book</li>
-                    <li>|</li>
-                    <li>Hip-Hop</li>
-                </ul>
-            </nav>
-            <h2>Ride</h2>
-            <nav class="main-middle">
-                <ul>
-                    <li>Twenty One Pilots</li>
-                    <li>|</li>
-                    <li>Blurryface</li>
-                    <li>|</li>
-                    <li>Alt / Hip  Hop</li>
-                </ul>
-            </nav>
-        </div><!-- Main Middle Box -->
-
-</div>
-
-
-    <div id="secondPartMH" class id="secondPartMH"">
-    </div> <!-- YOU NEED THIS IN ORDER TO PRINT TO HTML DOM -->
-
-<script type="text/javascript" src="music.js"></script>
-</body>
+        <div class="song_list" id="song_list_id">
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="main.js">
+    </script>
+  </body>
 </html>

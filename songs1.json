@@ -1,0 +1,19 @@
+{
+  "songList": [
+    {
+      "song_name": "Blessings",
+      "artist_name": "Chance the Rapper",
+      "album_name": "Coloring Book"
+    },
+    {
+      "song_name": "Hooked on a Feeling",
+      "artist_name": "Blue Swede",
+      "album_name": "70's Boogie"
+    },
+    {
+      "song_name": "Ride",
+      "artist_name": "Twenty One Pilots",
+      "album_name": "Blurryface"
+    }
+  ]
+}

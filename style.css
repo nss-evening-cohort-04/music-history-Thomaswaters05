@@ -1,148 +1,116 @@
+ /*********************
+  FLEXBOX
+*********************/
 
-* {
-
-  box-sizing: border-box;
-
+.container {
+  display: flex;
 }
 
+/*********************
+  GENERAL
+*********************/
 
 body {
-  clear: both;
-  text-decoration: none;
-  width: 960px;
+  font-family: sans-serif;
+}
+
+/*********************
+  NAVBAR
+*********************/
+
+nav {
+  background-color: #FFB4B0;
+  border: 2px solid black;
+  margin: 2% 10% 1%;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+/*********************
+  ADD MUSIC
+*********************/
+
+#add-music-view {
+  display: flex;
+  margin-top: 70px;
+}
+
+.user-music-info {
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
-
 }
 
+.user-music-info label {
+  text-align: right;
+  line-height: 1.8em;
+}
 
-/******* NAV BAR ********/
+.user-music-info button {
+  width: 40%;
+  margin: 10px auto 0;
+}
 
-.nav-bar{
+/*********************
+  FILTERS
+*********************/
 
-  background: salmon;
+.filters {
+  width: 20%;
+  background-color: #4DD7FA;
   border: 2px solid black;
-  width: 90%;
-  max-width: 754px;
-  min-width: 754px;
-  margin: 10px auto;
-  font-family: futura;
-  float:left;
-
-
+  padding: 1%;
+  margin-left: 10%;
+  margin-right: 15px;
 }
 
-
-.nav-bar ul li{
- list-style-type: none;
- display: inline-block;
-
-
+.slider input {
+  width: 100%;
 }
 
-/******* NAV BAR ********/
-
-
-/******* LEFT SIDE BAR********/
-
-.side-bar {
-  background:#6FBEDA;
-  border: 2px solid black;
-  margin: 5px auto;
-  max-width: 250px;
-  line-height: 350%;
-  font-family: futura;
-}
-
-
-.side-bar ul li {
+.genres {
   list-style-type: none;
-  display: block;
-
+  display: flex;
 }
 
-.side-bar,
-.main-border{
-  width:46.5%;
-
+.inline_checkbox {
+  display: inline-block;
 }
 
-.side-bar{
-  float:left;
-  clear: both;
+.filter_button {
+  margin-top: 20px;
+  text-align: center;
 }
 
+.filter_button button {
+  padding: 0 25px;
+}
 
-/******* LEFT SIDE BAR********/
+/*********************
+  SONG LIST
+*********************/
 
-
-/******* Middle Main ********/
-
-.main-border{
-  background: #FEFAC0;
+#song_list_id {
+  width: 70%;
+  height: 360px;
+  background-color: #FEFAC0;
   border: 2px solid black;
-  margin: 5px 10px auto;
-  max-width: 493px;
-  font-family: futura;
-  padding: 0 0 107px 20px;
-
+  padding: 1%;
+  margin-right: 10%;
+  overflow-y: auto;
 }
 
-div.main-border {
-  padding-top: 10px;
-  max-height: 503px;
-  line-height: 38px;
-  min-width: 493px;
+#song_list_id div {
+  display: flex;
 }
 
-.main-border{
- float:left;
-
+.delete {
+  padding: 0;
+  margin: 5px 5px;
 }
-
-.main-middle {
-    background: #FEFAC0;
-
-}
-
-.main-middle ul li {
-  display: inline;
-  list-style-type: none;
-  color:black;
-  text-align: left;
-
-}
-
-.main-middle ul {
-  padding-left: 0;
-}
-
-
-h2 {
-
-  color: #785616 ;
-}
-
-/******* Middle Main ********/
-
-/******* PERIPHERALS AND LISTS ********/
-
-input[type="range"] {
-    display:block;
-    margin-right: 60px;
-}
-
-input[type="checkbox"] {
-    display:inline;
-
-}
-
-select {
-  background-color: white;
-    color: black;
-    padding: 16px;
-    font-size: 12px;
-    border: 1.5px double brown;
-    cursor: pointer;
-
-}
-
